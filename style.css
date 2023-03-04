@@ -1,0 +1,145 @@
+body {
+  background-image: url("Images/tile.jpg");
+  font-family: "Mynerve", cursive;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.container {
+  /* position: absolute; */
+  width: 3000px;
+}
+
+.firstInContainer {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-left: 450px;
+  background-image: url("Images/formbg.jpg");
+  width: 650px;
+  height: 200px;
+}
+
+#assignmentInput {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border: 0;
+  font-size: larger;
+  width: 645px;
+}
+
+/* dateInput */
+#chooseADate {
+  border: 0;
+  font-size: larger;
+}
+/* timeInput */
+#pickTime {
+  border: none;
+  font-size: larger;
+  margin-top: 2px;
+}
+
+.buttons {
+  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#hereIsATable {
+  margin-top: 15px;
+  margin-left: 500px;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+#Enteryourtasks {
+  margin-top: 15px;
+}
+
+.divInsider-style {
+  width: 300px;
+  height: 240px;
+  /* background-color: blueviolet; */
+  margin-top: 60px;
+  margin-left: 150px;
+}
+
+#notes {
+  display: inline-flex;
+  margin-top: 50px;
+  
+
+}
+
+.dlt{
+visibility: hidden;
+}
+
+.scroller {
+  width: 300px;
+  height: 100px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
+
+.taskP {
+  width: 225px;
+  height: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
+
+.divNote-style {
+  width: 520px;
+  height: 350px;
+  background-image: url("Images/notesPng.png");
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+}
+
+/* fade in affect */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* hover in and out affect on X button */
+.dlt{
+  visibility: hidden;
+  
+  }
+
+.vis:hover>.dlt{
+  visibility: visible;
+  
+  }
